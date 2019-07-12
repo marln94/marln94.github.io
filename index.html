@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="white">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="manifest" href="/manifest.json">
+
+	<link rel="icon" href="/images/icons/icon-72x72.png" type="image/png">
+	<link rel="apple-touch-icon" href="images/icons/icon-152x152.png">   
+	<meta name="theme-color" content="white"/>  
+	<meta name="apple-mobile-web-app-capable" content="yes">  
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+	<meta name="apple-mobile-web-app-title" content="Promedio-U"> 
+	<meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">  
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+
+	<title>Promedio-U</title>
+
+</head>
+<body>
+	<div class="w3-container w3-pink">
+		<h1>Promedio-U</h1>
+	</div>
+
+	<div class="w3-container">
+		<div class="w3-row">
+			<div class="w3-col l6" id="col-1">
+				<div class="w3-row-padding w3-padding-24" id="contenedor-clases">
+					<div class="w3-col s6 m6 l6">
+						<input class="w3-input" type="text" name="txt-clase-0" id="txt-clase-0" placeholder="clase">
+					</div>
+					<div class="w3-col s3 m3 l3">
+						<input class="w3-input" type="number" name="txt-uv-0" id="txt-uv-0" placeholder="uv" max="25" min="1">
+					</div>
+					<div class="w3-col s3 m3 l3">
+						<input class="w3-input" type="number" name="txt-calificacion-0" id="txt-calificacion-0" placeholder="nota" max="100" min="0">
+					</div>
+				</div>
+				<div class="w3-row">
+					<div class="w3-col s8 m8 l8" id="btns">
+						<button class="w3-button w3-circle w3-pink w3-hover-pink" id="btn-agregar">+</button>
+					</div>
+					<div class="w3-col s4 m4 l4 w3-center">
+						<span style="margin: 0; font-size: 40px;" id="promedio">0.0</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
