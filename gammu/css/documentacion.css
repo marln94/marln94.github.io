@@ -1,0 +1,66 @@
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+nav.top-nav{
+    height: 110px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+    background-color: transparent;
+}
+
+nav.top-nav h1.header {
+    margin: 0;
+    padding-top: 22px;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    /* color: #ee6e73; */
+    font-weight: 300;
+}
+
+a.sidenav-trigger.top-nav {
+    position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    top: 28px;
+    float: none;
+    margin-left: 1.5rem;
+    /* color: #f3989b; */
+    font-size: 36px;
+    z-index: 2;
+}
+
+a.sidenav-trigger.top-nav i {
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 992px){
+    .row .col.offset-m1 .indigo-text {
+        text-align: center;
+    }
+}
+
+.card-panel {
+    padding: 5px 15px;
+}
+
+.page-footer {
+    background-color: transparent;
+}
+
+.docs-footer .footer-copyright {
+    color: #000000;
+    background-color: transparent;
+}
