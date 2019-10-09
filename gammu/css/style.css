@@ -22,3 +22,22 @@
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+/* .fondo-imagen{
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  min-height: 100%;
+  background-size: auto 100%;
+} */
+
+.caracteristicas {
+  margin: 4rem 0 1.424rem 0;
+}
+
+html {
+  background: url('../img/background.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  /* overflow: hidden; */
+}
